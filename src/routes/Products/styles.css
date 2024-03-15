@@ -10,7 +10,16 @@
     padding-top: 20px;
 }
 
-.products-links li{
+.components-links {
     font-size: 16px;
     padding-right: 10px;
+    
+}
+
+.menu-active{
+    font-weight: 700;
+}
+
+.menu-default{
+    font-weight: 400;
 }

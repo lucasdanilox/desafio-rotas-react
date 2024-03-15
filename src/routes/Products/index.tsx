@@ -1,22 +1,38 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './styles.css';
 
 export default function Products() {
 
     return (
 
-
         <main className="container-products">
-            <div className="content-container">
-                <ul className="products-links">
-                    <li><Link to="/computers">Computadores</Link></li>
-                    <li><Link to="/electronics">Eletrônicos</Link></li>
-                    <li><Link to="/books">Livros</Link></li>
-                </ul>
-            </div>
-        </main>
 
+            <nav>
+                <div className="products-links">
+                    <div className="components-links">
+                        <NavLink to="/computers" className={({ isActive }) => isActive ? "menu-active " : "menu-default"}>
+                            Computadores
+                        </NavLink>
+                    </div>
+                    <div className="components-links">
+                        <NavLink to="/electronics" className={({ isActive }) => isActive ? "menu-active " : "menu-default"}>
+                            Eletrônicos
+                        </NavLink>
+                    </div>
+                    <div className="components-links">
+                        <div >
+                            <NavLink to="/books" className={({ isActive }) => isActive ? "menu-active " : "menu-default"}>
+                                Livros
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </main>
 
     );
 
 }
+
+
+
