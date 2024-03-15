@@ -1,0 +1,38 @@
+
+
+header{
+    height: 70px;
+    background-color: blue;
+}
+
+.container-links{
+    max-width: 960px;
+    margin: 0 auto;
+    color: var(--color-font-primary);
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar-list li{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.home-image{
+    align-items: center;
+    border: 1px solid red
+}
+
+.container-image{
+    margin-left: auto;
+}
+
+.image-home{
+    width: 30px;
+    height: 28px;
+}

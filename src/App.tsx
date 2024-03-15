@@ -1,7 +1,9 @@
+import Header from "./components/Header";
+
 export default function App() {
 
   return (
-    <h1>Project created!</h1>
+    <Header />
   );
 }
 
