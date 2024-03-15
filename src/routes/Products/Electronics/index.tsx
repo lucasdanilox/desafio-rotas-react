@@ -8,9 +8,9 @@ export default function Electronics() {
             <Products />
             <div className="list-electronics">
                 <ul className="list-products-electronics">
-                    <li><a href="#">Eletrônico Novo</a> </li>
-                    <li><a href="#">Eletrônico Usado</a> </li>
-                    <li><a href="#">Eletrônico Semi-novo</a> </li>
+                    <li><a href="#">SmarT TV 52"</a> </li>
+                    <li><a href="#">Mouse Pantera</a> </li>
+                    <li><a href="#">Playstation 5</a> </li>
                 </ul>
             </div>
 
