@@ -12,7 +12,7 @@ export default function Header() {
                         <li><a href="#">Produtos</a></li>
                         <li><a href="#">Sobre nós</a></li>
                         <li className="container-image">
-                        <img src={Home} alt="Home" className="image-home" />
+                            <img src={Home} alt="Home" className="image-home" />
                         </li>
                     </ul>
                 </nav>

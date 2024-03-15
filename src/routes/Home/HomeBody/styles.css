@@ -1,8 +1,5 @@
-.home-page-container{
-    max-width: 960px;
+.title h1{
+    padding-top: 20px;
     margin: 0 auto;
-}
-
-.title{
-    margin-top: 20px;
+    max-width: 960px;
 }

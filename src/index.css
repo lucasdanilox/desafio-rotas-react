@@ -4,6 +4,7 @@
 :root {
 
     --color-bg-primary: #FFFFFF;
+    --color-bg-secondary:  #C7C7C7;
     
     --color-font-primary: #FFFFFF;
 }
@@ -33,4 +34,4 @@ ul {
 
 main {
     padding: 0 20px;
-  }
+}
