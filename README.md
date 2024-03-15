@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# DESAFIO: Rotas React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Rotas](https://i.postimg.cc/mk0RWQtn/2024-03-1518-53-52-ezgif-com-video-to-gif-converter-1.gif)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Foi um desafio de rotas usando React Router DOM, onde foi estabelecido alguns critérios:
 
-## Expanding the ESLint configuration
+Três links na barra de navegação superior devem funcionar (Início, Produtos, Sobre nós).
+A rota ativa na barra superior deve ser destacada.
+O link "home" (casinha no canto superior direito) deve funcionar.
+Os três links na barra de navegação de produtos devem funcionar (Computadores, Eletrônicos, Livros).
+A rota ativa na barra de navegação de produtos deve ser destacada.
+Uma página "Não encontrado" deve aparecer para qualquer rota não configurada.
+As rotas, assim como as pastas dos componentes, devem seguir a seguinte hierarquia.
+Foi desafiador e exigiu muito esforço para ser concluído. Surgiram algumas dificuldades e bugs, mas com persistência e pesquisa, como a consulta à documentação do React Router DOM, consegui superá-los!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js v18
+- Yarn
+- React
+- React router DOM
+- TypeScript
+- JavaScript
+- HTML
+- CSS
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Como Executar
 ```
+1. Clone o repositório para sua máquina local.
+2. Certifique-se de ter o Node.js e o Yarn instalados em seu sistema.
+3. Navegue até o diretório do projeto e execute `yarn install` para instalar as dependências.
+4. Execute `yarn dev` para iniciar o servidor local.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```
+## Autor
+
+Lucas Danilo de castro
+
+[Linkedin](https://www.linkedin.com/in/lucasdanilox/)
