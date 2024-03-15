@@ -5,7 +5,6 @@ export default function Computers() {
 
     return (
         <>
-
             <Products />
             <div className="list-computer">
                 <ul className="list-products">
