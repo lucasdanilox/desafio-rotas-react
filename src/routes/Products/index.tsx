@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 export default function Products() {
@@ -8,9 +9,9 @@ export default function Products() {
         <main className="container-products">
             <div className="content-container">
                 <ul className="products-links">
-                    <li><a href="#">Computadores</a></li>
-                    <li><a href="#">Eletrônicos</a></li>
-                    <li><a href="#">Livros</a></li>
+                    <li><Link to="/computers">Computadores</Link></li>
+                    <li><Link to="/electronics">Eletrônicos</Link></li>
+                    <li><Link to="/books">Livros</Link></li>
                 </ul>
             </div>
         </main>
