@@ -4,6 +4,7 @@ export default function Products() {
 
     return (
 
+
         <main className="container-products">
             <div className="content-container">
                 <ul className="products-links">
@@ -13,5 +14,8 @@ export default function Products() {
                 </ul>
             </div>
         </main>
+
+
     );
+
 }

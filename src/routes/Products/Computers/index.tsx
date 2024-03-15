@@ -1,9 +1,9 @@
 import Products from '..';
 import './styles.css';
-
 export default function Computers() {
 
     return (
+
         <>
             <Products />
             <div className="list-computer">
@@ -13,7 +13,7 @@ export default function Computers() {
                     <li><a href="#">Computador 32GB</a> </li>
                 </ul>
             </div>
-        </>
 
+        </>
     );
 }
