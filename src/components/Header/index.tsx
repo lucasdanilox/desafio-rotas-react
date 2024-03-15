@@ -1,5 +1,6 @@
 import './styles.css';
 import Home from '../../assets/home.svg';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -8,11 +9,13 @@ export default function Header() {
             <div className="container-links">
                 <nav>
                     <ul className="navbar-list">
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Sobre nós</a></li>
+                        <li><Link to="/" >Início</Link></li>
+                        <li><Link to="/products">Produtos</Link></li>
+                        <li><Link to="/about">Sobre nós</Link></li>
                         <li className="container-image">
-                            <img src={Home} alt="Home" className="image-home" />
+                            <Link to="/">
+                                <img src={Home} alt="Home" className="image-home" />
+                            </Link>
                         </li>
                     </ul>
                 </nav>
