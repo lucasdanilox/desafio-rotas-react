@@ -21,6 +21,7 @@ export default function App() {
           <Route path="/books" element={<Book />} />
           <Route path="/about" element={<About />} />
           <Route path="/notfound" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter >
