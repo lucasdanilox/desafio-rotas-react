@@ -1,6 +1,6 @@
 # DESAFIO: Rotas React
 
-![Rotas](https://i.postimg.cc/mk0RWQtn/2024-03-1518-53-52-ezgif-com-video-to-gif-converter-1.gif)
+![Rotas](https://i.postimg.cc/gJXxccLj/2024-03-1618-38-44-ezgif-com-video-to-gif-converter.gif)
 
 
 Foi um desafio de rotas usando React Router DOM, onde foi estabelecido alguns critérios:
