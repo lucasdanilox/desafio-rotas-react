@@ -5,14 +5,13 @@
 
 Foi um desafio de rotas usando React Router DOM, onde foi estabelecido alguns critérios:
 
-Três links na barra de navegação superior devem funcionar (Início, Produtos, Sobre nós).
-A rota ativa na barra superior deve ser destacada.
-O link "home" (casinha no canto superior direito) deve funcionar.
-Os três links na barra de navegação de produtos devem funcionar (Computadores, Eletrônicos, Livros).
-A rota ativa na barra de navegação de produtos deve ser destacada.
-Uma página "Não encontrado" deve aparecer para qualquer rota não configurada.
-As rotas, assim como as pastas dos componentes, devem seguir a seguinte hierarquia.
-Foi desafiador e exigiu muito esforço para ser concluído. Surgiram algumas dificuldades e bugs, mas com persistência e pesquisa, como a consulta à documentação do React Router DOM, consegui superá-los!
+1) Três links da barra de navegação superior funcionando (Início, Produtos, Sobre nós).
+2) Rota ativa da barra superior destacada na barra superior.
+3) Link "home" (casinha no canto superior direito) funcionando.
+4) Três links da barra de navegação de produtos funcionando (Computadores, Eletrônicos, Livros).
+5) Rota ativa da barra de navegação de produtos destacada.
+6) Página "Não encontrado" deve aparecer para qualquer rota não configurada.
+7) As rotas, bem como as pastas dos componentes, devem seguir a seguinte hierarquia:
 
 ## Tecnologias Utilizadas
 
