@@ -1,31 +1,37 @@
-header{
+header {
     height: 70px;
     background-color: blue;
 }
 
-.container-links{
+.container-links {
     max-width: 960px;
     margin: 0 auto;
     color: var(--color-font-primary);
 }
 
-.navbar-list{
+.components-navbar {
+    margin-right: 20px;
+}
+
+.navbar-list {
     padding-top: 20px;
     display: flex;
     align-items: center;
-    
 }
 
-.navbar-list li{
-    padding-left: 0;
-    padding-right: 10px;
-}
-
-.container-image{
+.container-image {
     margin-left: auto;
 }
 
-.image-home{
+.image-home {
     width: 30px;
     height: 28px;
+}
+
+.menu-default-navbar {
+    font-weight: 700;
+}
+
+.menu-active-navbar {
+    font-weight: 400;
 }
